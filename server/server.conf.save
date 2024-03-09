@@ -1,0 +1,56 @@
+local 46.173.218.232
+port 80
+proto udp
+dev tun
+ca pki/ca.crt
+cert pki/issued/srvk.crt
+key pki/private/srvk.key
+dh pki/dh.pem
+server 21.21.21.0 255.255.255.0
+push "redirect-gateway def1"
+push "dhcp-option DNS 8.8.8.8"
+keepalive 10 120
+max-clients 250
+client-to-client
+client-config-dir /etc/openvpn/ccd
+status /var/log/openvpn/openvpn-status.log
+log-append /var/log/openvpn/openvpn.log
+verb 1
+mute 20
+daemon
+mode server
+comp-lzo
+cipher none
+
+sndbuf 524288
+rcvbuf 524288
+push "sndbuf 524288"
+push "rcvbuf 524288"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
