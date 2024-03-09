@@ -1,0 +1,67 @@
+  272  history | grep firewalld
+  273  history | grep firewall
+  274  firewall-cmd --get-active-zones
+  275  firewall-cmd --get-services
+  276  firewall-cmd --get-active-zones
+  277  firewall-cmd --info-service=openvpn
+  347  history | grep firewalld
+  348  systemctl status firewalld
+  351  less /var/log/firewalld 
+  352  firewall-cmd --list-all
+  353  firewall-cmd --get-services
+  354  firewall-cmd --get-services | grep openvpn
+  355  firewall-cmd --info-service=openvpn
+  356  firewall-cmd --reload
+  566  firewall-cmd --permanent --add-port=20-21/tcp
+  567  firewall-cmd --reload
+  653  firewall-cmd --permanent --add-port=20-21/tcp
+  713  firewall-cmd --get-default-zone
+  714  firewall-cmd --get-active-zones
+  715  sudo firewall-cmd --list-all
+  716  firewall-cmd --get-zones
+  717  firewall-cmd --zone=internal --list-all
+  718  firewall-cmd --get-services
+  719  firewall-cmd --get-services | less
+  720  firewall-cmd --zone=internal --add-service=dns
+  721  firewall-cmd --zone=internal --list-services
+  722  firewall-cmd --zone=internal --permanent --add-service=dns
+  723  firewall-cmd --zone=internal --list-ports
+  724  firewall-cmd --zone=external --list-ports
+  730  #firewall-cmd --zone=internal --permanent --add-service=ftp
+  731  firewall-cmd --zone=internal --list-services
+  732  firewall-cmd --get-services | less
+  733  firewall-cmd --zone=internal --permanent --add-service=ftp
+  734  firewall-cmd --zone=internal --list-ports
+  735  firewall-cmd --zone=internal --list-servise
+  736  firewall-cmd --zone=internal --list-service
+  737  firewall-cmd --zone=internal --add-service=ftp
+  738  firewall-cmd --zone=internal --list-service
+  739  firewall-cmd --zone=internal --permanent --add-service=ftp
+  740  firewall-cmd --zone=internal --permanent --list-service
+  741  firewall-cmd --zone=internal --list-service
+  742  firewall-cmd --zone=internal --permanent --add-port=56923
+  743  firewall-cmd --zone=internal --permanent --add-port=56923/tcp
+  744  firewall-cmd --zone=internal --permanent --add-port
+  745  firewall-cmd --zone=internal --permanent --list-port
+  746  firewall-cmd --zone=internal --permanent --list-service
+  747  firewall-cmd --zone=internal --permanent --del-port=56923/tcp
+  748  firewall-cmd man
+  749  man firewall-cmd
+  750  firewall-cmd --zone=internal --permanent --delite-port=56923/tcp
+  751  firewall-cmd --zone=internal --permanent --delit-port=56923/tcp
+  752  man firewall-cmd
+  753  firewall-cmd --zone=internal --permanent --delete-port=56923/tcp
+  754  firewall-cmd --zone=internal --permanent --remove-port=56923/tcp
+  755  firewall-cmd --zone=internal --permanent --list-port
+  919  firewall-cmd --permanent --zone=internal --add-service=bacula
+  920  firewall-cmd --permanent --zone=internal --add-service=bacula-client
+  924  history | grep firewall-cmd
+  925  firewall-cmd --permanent --zone=internal --add-service=cockpit
+  947  history |grep firewall
+  948  #firewall-cmd --permanent --zone=internal --add-port=
+  950  firewall-cmd --permanent --zone=internal --add-port=5201
+  951  firewall-cmd --zone=internal --permanent --add-port=5201/tcp
+  953  firewall-cmd --zone=internal --permanent --add-port=5201/udp
+  954  firewall-cmd reload
+  955  firewall-cmd --reload
+ 1004  history |grep firewall > ./firewall.txt
