@@ -9,8 +9,8 @@ services:
     devices:
       - /dev/net/tun
     ports:
-      - "1718:1194"
+      - "1717:1194"
     volumes:
-      - .:/etc/openvpn
+      - .:/usr/openvpn
 #    command: openvpn --config ./server/server.conf
     command: sh -c "openvpn --config ./server/server.conf && sleep infinity"
