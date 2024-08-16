@@ -9,7 +9,7 @@ services:
     devices:
       - /dev/net/tun
     ports:
-      - "1717:1194"
+      - "1717:1194/udp"
     volumes:
       - .:/usr/openvpn
 #    command: openvpn --config ./server/server.conf
