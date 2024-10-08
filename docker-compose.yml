@@ -3,7 +3,7 @@ version: "2"
 
 services:
   openvpn:
-    image: den4ik7707/den_openvpn:1.3
+    image: den4ik7707/den_openvpn:1.4
     cap_add:
       - NET_ADMIN
     devices:
